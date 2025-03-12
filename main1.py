@@ -20,7 +20,7 @@ def initialize_qa_system():
     
     # Initialize FAISS index
     index_path = "faiss_index"
-    file_path = ("D:/Python/langchain_Rag/Wolrd Population Data.csv")
+    file_path = ("../Wolrd Population Data.csv")
     if os.path.exists(index_path):
         db = FAISS.load_local(index_path, embeddings, allow_dangerous_deserialization=True)
     else:
