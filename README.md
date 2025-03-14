@@ -56,6 +56,8 @@ streamlit run main1.py
 ```
 This will launch an interactive web UI where users can enter queries and receive intelligent responses.
 
+![image_alt](https://github.com/ajagtap2897/Chatbot_Rag/blob/5040204422028df56cfed901db3708c6452fb79e/Screenshot%202025-03-12%20211849.png)
+
 ### 2️⃣ Customizing the Chatbot:
 
 Modify the retrieval pipeline to fetch data from external sources like databases, PDFs, or APIs.
